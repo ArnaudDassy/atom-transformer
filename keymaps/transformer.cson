@@ -1,0 +1,19 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the blavla workspace root.
+# &&
+# hh
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+'atom-text-editor':
+  'ctrl-alt-shift-u': 'transformer:upperCase',
+  'ctrl-alt-shift-i': 'transformer:wordInvert'
+  'ctrl-alt-shift-r': 'transformer:wordReverse'
+  'ctrl-alt-shift-e': 'transformer:calculate'
+  'ctrl-alt-shift-w': 'transformer:wordWave'
+  'ctrl-alt-shift-c': 'transformer:camelCase'
+  'ctrl-alt-shift-v': 'transformer:underscoreCase'
+  'ctrl-alt-shift-s': 'transformer:wordShuffle'
