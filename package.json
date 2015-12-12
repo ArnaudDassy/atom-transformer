@@ -1,26 +1,24 @@
 {
   "name": "transformer",
   "main": "./lib/transformer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Transformer is package that allow you to execute small modifications on words on numbers",
-  "keywords": [ "Transformer", "transformer", "word tool", "calculate", "uppercase", "invert", " word suffle"
+  "keywords": [
+    "Transformer",
+    "transformer",
+    "word tool",
+    "calculate",
+    "uppercase",
+    "invert",
+    " word suffle"
   ],
   "activationCommands": {
-    "atom-workspace": "transformer:upperCase",
-    "atom-workspace": "transformer:wordInvert",
-    "atom-workspace": "transformer:wordReverse",
-    "atom-workspace": "transformer:calculate",
-    "atom-workspace": "transformer:wordWave",
-    "atom-workspace": "transformer:camelCase",
-    "atom-workspace": "transformer:underscoreCase",
     "atom-workspace": "transformer:wordShuffle"
-
   },
   "repository": "https://github.com/atom/transformer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
