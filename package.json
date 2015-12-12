@@ -10,12 +10,12 @@
     "calculate",
     "uppercase",
     "invert",
-    " word suffle"
+    "word suffle"
   ],
   "activationCommands": {
     "atom-workspace": "transformer:wordShuffle"
   },
-  "repository": "https://github.com/atom/transformer",
+  "repository": "https://github.com/ArnaudDassy/atom-transformer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
